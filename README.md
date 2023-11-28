@@ -20,7 +20,7 @@ The same feature representation as the malware detector is used as the state spa
 ### Action content generation
 Actions include 6 functionality-preserving modifications. Five actions are inherited from [Gym-malware](https://github.com/endgameinc/gym-malware)([paper](https://arxiv.org/abs/1801.08917)), and we add the action `Modify DOS Header (MD)` to modify some unused bytes in the DOS Header.
 
-![image](actionset.jpg)
+![image](actionset.JPG)
 
 We build the action content generation module to generate adversarial payloads using a generative adversarial network (GAN). The generator in the module can generate synthetic bytes to mimic real benign software. These synthetic bytes have similar features to benign applications in the dataset, and different random seeds will generate fragments with different content.
 
