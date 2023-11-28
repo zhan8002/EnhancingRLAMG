@@ -28,13 +28,7 @@ We build the action content generation module to generate adversarial payloads u
 
 
 ## Setup
-The framework is built on Python3.7 we recommend first creating a virtualenv then performing the following actions ensure you have the correct python libraries:
-
-```sh
-pip install -r requirements.txt
-```
-
-We leverages the [LIEF](https://github.com/lief-project/LIEF) and [PEfile](https://github.com/erocarrera/pefile) to perform functionality-preserving modifications.
+The framework is built on Python3.7 and we leverages the [LIEF](https://github.com/lief-project/LIEF) and [PEfile](https://github.com/erocarrera/pefile) to perform functionality-preserving modifications.
 
 To get this repo running you need prepare the following data:
 
